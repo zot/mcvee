@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "removeComments": false,
+    "downlevelIteration": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "module": "esnext",
+    "typeRoots": ["node_modules/@types/"],
+    "lib": ["esnext", "dom", "ScriptHost"],
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "outDir": "build"
+  },
+  "exclude": ["dist", "node_modules"],
+  "include": ["js", "example", "js-test"]
+}
